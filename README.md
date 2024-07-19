@@ -97,6 +97,14 @@ It helps extract data from sources, enable data exploration,  perform data model
 
 4. Data Analysis & Visualization: The dataset is visualized in form of dashboard, reports and sent to the stakeholders or marketing and advertising department of SunMusic to optimize the insights during campaigns.
 
+
+![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
+
+![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
+
+![GIF of Power BI Dashboard](assets/images/tooltip.png)
+
+
 # Project Insight
 - From Sway's 3,000 listeners which comprises,  50.8% female, 46.7% male and 2.5% Others. 
 
