@@ -1,6 +1,10 @@
 # Analyzing and Optimizing Advertisement Strategies
 # for Sway's 2nd Album Release
 
+![excel-to-powerbi-animated-diagram](assets/images/source.png)
+
+
+
 # Table of contents 
 
 - [Objective](#objective)
