@@ -1,8 +1,7 @@
 # Analyzing and Optimizing Advertisement Strategies
 # for Sway's 2nd Album Release
 
-![excel-to-powerbi-animated-diagram](assets/images/source.png)
-
+![excel-to-powerbi-animated-diagram](assets/images/PBI_image.png)
 
 
 # Table of contents 
@@ -101,10 +100,9 @@ It helps extract data from sources, enable data exploration,  perform data model
 
 4. Data Analysis & Visualization: The dataset is visualized in form of dashboard, reports and sent to the stakeholders or marketing and advertising department of SunMusic to optimize the insights during campaigns.
 
+![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
 
 ![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
-
-![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.png)
 
