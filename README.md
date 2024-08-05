@@ -181,7 +181,7 @@ Creating the age range
 Results
 ### What does the dashboard look like for Sways Analysis?
 
-![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
+![GIF of Power BI Dashboard](assets/images/sway's_analysis.gif)
 
 
 
