@@ -19,18 +19,18 @@ It helps extract data from sources, enable data exploration, perform data modeli
 - [Data Source](#data-source)
 - [Stages](#stages)
 - [Design](#design)
-- [Project Scope](#Project Scope)
+- [Project Scope](#Project-Scope)
   - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
   - [Data Exploration](#data-exploration)
   - [Data Cleaning](#data-cleaning)
-  - [Transform the Data](#transform-the-data)
+  - [Data Transformation](#data-transformation)
 - [Visualization](#visualization)
   - [Results](#results)
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
-  - [Project Insight](#Project Insight)
+  - [Project Insight](#project-insight)
 - [Recommendations](#recommendations)
   
 
@@ -143,7 +143,7 @@ What’s the general approach in creating this solution from start to finish?
 6.	Write the documentation + commentary and sent to the stakeholders or marketing and advertising department of SunMusic to optimize the insights during campaigns.
 8.	Publish the data to GitHub Pages
 
-#  Data exploration notes
+#  Data Exploration 
 
 This is the stage where you have a scan of what’s in the data, errors, inconsistencies, bugs, weird and corrupted characters etc
 What are your initial observations with this dataset? What’s caught your attention so far?
@@ -153,7 +153,7 @@ What are your initial observations with this dataset? What’s caught your atten
 4.	Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
 5.	We have more data than we need, so some of these columns would need to be removed
 
-# Data cleaning
+# Data Cleaning
 - What do we expect the clean data to look like?
 The aim is to refine our dataset to ensure it is structured and ready for analysis.
 The cleaned data should meet the following criteria and constraints:
@@ -180,20 +180,24 @@ Below is a table outlining the constraints on our cleaned dataset:
 Creating the age range 
 
 # Visualization
+
 Results
 ### What does the dashboard look like for Sways Analysis?
 
 ![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
 
 
+
 ### What does the dashboard look like for Sways Competitors Analysis?
 ![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
+
 
 
 ### What does the dashboard look like the listeners by platform?
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.png)
 
+This shows the Top UK Youtubers in 2024 so far. 
 
 
 ## DAX Measures
@@ -302,7 +306,7 @@ RETURN Total Listeners
 
 # Recommendations
 
-- What do you recommend based on the insights gathered?
+What do you recommend based on the insights gathered?
   
 In order to enhance her marketing optimization efforts, Sway should capitalize on additional social media platforms to expand her fanbase by increasing her social presence and interaction on platforms where she's lagging behind such as Twitter and Tik-Tok. This approach will not only bolster her social media engagement but also contribute to increased streaming figures and album sales.
 
