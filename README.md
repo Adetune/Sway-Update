@@ -108,7 +108,7 @@ To understand what it should contain, we need to figure out what questions we ne
 - What is the top listeners age range?
 - What is the top competitor streaming number?
 - What is the top competitor by Genre? 
-- What are the top competitor followers? -
+- What are the top competitor followers? 
 - What is the top competitor Album Sales? 
 
 
