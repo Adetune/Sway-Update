@@ -1,9 +1,13 @@
 # Sway's 2nd Album Release
 
+
+
+
 ![excel-to-powerbi-animated-diagram](assets/images/PBI_image.png)
 
+
 # This is a Power BI project
-## A data visualization and business intelligence tool that aids in analysis by allowing users to transform raw data into meaningful insights and interactive reports.
+A data visualization and business intelligence tool that aids in analysis by allowing users to transform raw data into meaningful insights and interactive reports.
 It helps extract data from sources, enable data exploration, perform data modeling, and create visually engaging dashboards and reports.
 
 
