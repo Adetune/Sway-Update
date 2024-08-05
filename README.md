@@ -301,15 +301,20 @@ RETURN Total Listeners
 
 
 # Recommendations
+
+- What do you recommend based on the insights gathered?
+  
 In order to enhance her marketing optimization efforts, Sway should capitalize on additional social media platforms to expand her fanbase by increasing her social presence and interaction on platforms where she's lagging behind such as Twitter and Tik-Tok. This approach will not only bolster her social media engagement but also contribute to increased streaming figures and album sales.
 
 ### Listeners within the age of 39-45 engaged the most with Sway's music. In order to expand her audience to other age group, Sway can:
+
 1.	Experiment with different musical styles or genres that appeal to a broader demographic. This may involve collaborating with artists from other genres or incorporating elements from various musical traditions.
 2.	Create content, such as music videos or lyric videos, that resonates with different age groups. For example, she could create videos with themes or storylines that appeal to a younger audience or produce content that connects with older listeners.
 3.	Collaborate with artists who have fans in other age ranges such as Rhythmic Rival and Melodic Maven can help Sway tap into new audiences. These collaborations can introduce her music to a wider demographic.
    
    
 ### Sways has more low income level earners as listeners, to attract a more diverse audience that includes medium and high-income individuals:
+
 1. Consider advertising in upscale magazines, lifestyle blogs, or social media platforms popular among medium and high-income demographics.
 2.	Create ad campaigns tailored to the interests and preferences of medium and high-income individuals.
 3.	Collaborate with established artists who have a following among medium and high-income audiences. These collaborations can introduce her to new fans.
@@ -318,6 +323,7 @@ In order to enhance her marketing optimization efforts, Sway should capitalize o
    
    
 ### Sway's listeners are more in Melbourne, to expand her listener base in locations beyond Melbourne, the following strategies can be employed:
+
 1.	Create marketing campaigns specifically tailored to each of the other locations where she has listeners. This can include localized social media advertising, event promotions, and targeted outreach.
 2.	Collaborate with artists and influencers from those regions to tap into their local fan base. Joint projects or performances can help her gain visibility in new areas. Reach out to local radio stations, and online publications in those areas. Getting featured in local media and magazine shoot, for example 'Vogue Asia' , or Glamour Africa help introduce her music to a broader local audience.31.	Plan concerts or mini tours in the regions where she wants to expand her listener base.
 3.	On acquisition channel, it seems like a lot of listeners came in through adverts, Sway's team should continue investing in advertising campaigns that have proven successful in acquiring listeners and this medium should have a larger portion of the budget funds.
