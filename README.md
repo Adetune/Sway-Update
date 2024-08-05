@@ -186,7 +186,7 @@ Results
 
 
 ### What does the dashboard look like for Sways Competitors Analysis?
-![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
+![GIF of Power BI Dashboard](assets/images/sway's-competitors_analysis.gif)
 
 
 
