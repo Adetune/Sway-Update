@@ -1,4 +1,5 @@
-# Sway's 2nd Album Release
+# Analysing and Optimizing Advertisement Strategies
+## for Sway's 2nd Album Release
 
 
 
@@ -10,8 +11,6 @@
 A data visualization and business intelligence tool that aids in analysis by allowing users to transform raw data into meaningful insights and interactive reports.
 It helps extract data from sources, enable data exploration, perform data modeling, and create visually engaging dashboards and reports.
 
-
-## Analyzing and Optimizing Advertisement Strategies
 
 # Table of contents 
 
