@@ -190,9 +190,9 @@ Results
 
 
 
-### What does the dashboard look like the listeners by platform?
+### What does the dashboard look like for the listeners by platform?
 
-![GIF of Power BI Dashboard](assets/images/tooltip.png)
+![GIF of Power BI Dashboard](assets/images/tooltip.gif)
 
 This shows the Top UK Youtubers in 2024 so far. 
 
