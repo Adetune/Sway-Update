@@ -100,16 +100,16 @@ The stages for this project will be;
 Dashboard components required
 What should the dashboard contain based on the requirements provided?
 To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
-- What are the top listeners streaming platform used?
-- What is the top listeners acquisition medium?
-- What is the top listeners Income levels?
-- What is the top listeners location?
-- What is the top listeners music preferences?
-- What is the top listeners age range?
-- What is the top competitor streaming number?
-- What is the top competitor by Genre? 
-- What are the top competitor followers? 
-- What is the top competitor Album Sales? 
+- What are the total listeners streaming platform used?
+- What is the total listeners by acquisition medium?
+- What is the total listeners by Income levels?
+- What are total listeners by location?
+- What is the total listeners by music preferences?
+- What are the total listeners by age range?
+- What is the total competitor by streaming number?
+- What is the total competitor by Genre? 	
+- What are the top 5 of the competitor followers? 
+- What is the total competitor  by Album Sales?
 
 
 ## Project Scope
@@ -145,10 +145,7 @@ What’s the general approach in creating this solution from start to finish?
 This is the stage where you have a scan of what’s in the data, errors, inconsistencies, bugs, weird and corrupted characters etc
 What are your initial observations with this dataset? What’s caught your attention so far?
 1.	There are at least 3000 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
-2.	We need to create the age range
-3.	The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
-4.	Some of the cells and header names are in a different language - we need to confirm if these columns are needed, and if so, we need to address them.
-5.	We have more data than we need, so some of these columns would need to be removed
+2.	We need to create the age range column using a formular or an expression.
 
 # Data Cleaning
 - What do we expect the clean data to look like?
@@ -164,6 +161,26 @@ The cleaned data should meet the following criteria and constraints:
 1.	Remove unnecessary columns by only selecting the ones you need
 2.	Extract Youtube channel names from the first column
 3.	Rename columns using aliases
+
+Data Transformation 
+1. Create a custom column for Age range, this can be done using a formular or an expression.
+2. Max - Min ÷ number of ranges (65 - 18  / ÷7) = 6.71 approximately  7
+3. Then click on Transform data, Power Query , click on add column, custom column 
+
+### Age Range
+
+   ```sql
+   
+= Table.AddColumn(#"Changed Type", "Age Range", each if [Age] >= 18 and [Age] <= 25 then "18-24"
+else if [Age] >= 25 and [Age] <= 31 then "25-31"
+else if [Age] >= 32 and [Age] <= 38 then "32-38"
+else if [Age] >= 39 and [Age] <= 45 then "39-45"
+else if [Age] >= 46 and [Age] <= 52 then "46-52"
+else if [Age] >= 53 and [Age] <= 59 then "53-59"
+else "Above 60")
+
+```
+Click on Close & Apply then Age Range column is created using the formula and then the visualisation.
 
 Below is a table outlining the constraints on our cleaned dataset:
 
@@ -193,8 +210,9 @@ Results
 ### What does the dashboard look like for the listeners by platform?
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.gif)
+The tooltip visualisation is create as a way of providing addition information about a categories.
 
-This shows the Top UK Youtubers in 2024 so far. 
+This shows the dashboard looks so far. 
 
 
 ## DAX Measures
