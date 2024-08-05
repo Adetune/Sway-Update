@@ -42,12 +42,10 @@ It helps extract data from sources, enable data exploration, perform data modeli
  
 
 # Objective 
-# Objective 
 
 - What is the key pain point? 
 
 To propel Sway's second album to international stardom by strategically optimising the advertising and marketing strategy. The primary objective is to transform Sway from a regional sensation into a globally recognised and celebrated artist.
-
 
 - What is the ideal solution? 
 
@@ -73,11 +71,11 @@ With this information, I can make more informed decisions about how to ensure th
 
 # Data source
 
-•	What data is needed to achieve our objective?
+ What data is needed to achieve our objective?
 We need data on the SunMusic record label Entertainment that includes:
-•	Information on 3000 listeners
-•	Listeners Dataset 
-•	Competitors Analysis Dataset
+- Information on 3000 listeners
+- Listeners Dataset 
+- Competitors Analysis Dataset
 
 # Listeners Dataset:
 1.	Listeners_ID: A unique identifier for each listener.
@@ -100,56 +98,28 @@ We need data on the SunMusic record label Entertainment that includes:
 5.	Genre: The music genre associated with the competitor (Pop, HipHop, Alternative, RnB, Country).
 •	Where is the data coming from? The data is sourced from the SunMusic record label Entertainment.
 
-Data source
-•	What data is needed to achieve our objective?
-We need data on the SunMusic record label Entertainment that includes:
-•	Information on 3000 listeners
-•	Listeners Dataset 
-•	Competitors Analysis Dataset
-Listeners Dataset:
-1.	Listeners_ID: A unique identifier for each listener.
-2.	Age: The age of the listener.
-3.	Gender: The gender of the listener (Male, Female, Others).
-4.	Location: The location of the listener, randomly selected from various cities.
-5.	Music_Preferences: The music genre preference of the listener (Pop, HipHop, Alternative, Country, RnB).
-6.	Income_Level: The income level of the listener (Low, Medium, High).
-7.	Platform: The social media platform the listener is associated with (TikTok, Twitter, Instagram).
-8.	Album_Sales: The number of albums a listener has purchased.
-9.	Streaming_Numbers: The number of music streams per listener.
-10.	Streaming_Platform: The streaming platform used by the listener (Spotify, YouTube, Apple Music, Tidal, Others).
-11.	Acquisition_Medium: The method or medium through which the listener was acquired (Organic, Adverts, Radio plays, Influencers).
-
-Competitors Analysis Dataset
-1.	Competitor_Name: The name of the competitor artist.
-2.	No_of_Followers: The number of followers or fans the competitor has.
-3.	Album_Sales: The competitor's album sales
-4.	Streaming_Numbers: The competitor's streaming numbers
-5.	Genre: The music genre associated with the competitor (Pop, HipHop, Alternative, RnB, Country).
-•	Where is the data coming from? The data is sourced from the SunMusic record label Entertainment.
-
-
 # Stages
+
 The stages for this project will be;
-•	Design
-•	Development
-•	Testing
-•	Analysis
+- Design
+- Development
+- Analysis
 
 ## Design
-Dashboard components required
-•	What should the dashboard contain based on the requirements provided?
-To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
-•	What are the top listeners streaming platform used?
-•	What is the top listeners acquisition medium?
-•	What is the top listeners Income levels?
-•	What is the top listeners location?
-•	What is the top listeners music preferences?
-•	What is the top listeners age range?
-•	What is the top competitor streaming number?
-•	What is the top competitor by Genre? 
-•	What are the top competitor followers? 
-•	What is the top competitor Album Sales? 
 
+Dashboard components required
+What should the dashboard contain based on the requirements provided?
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+- What are the top listeners streaming platform used?
+- What is the top listeners acquisition medium?
+- What is the top listeners Income levels?
+- What is the top listeners location?
+- What is the top listeners music preferences?
+- What is the top listeners age range?
+- What is the top competitor streaming number?
+- What is the top competitor by Genre? 
+- What are the top competitor followers? -
+- What is the top competitor Album Sales? 
 
 
 ## Project Scope
@@ -166,7 +136,8 @@ To understand what it should contain, we need to figure out what questions we ne
 # Development
 
 ## Pseudocode
-•	What’s the general approach in creating this solution from start to finish?
+
+What’s the general approach in creating this solution from start to finish?
 1.	Get the data - Data Importation: SunMusic data is imported from its data source into Power BI environment.
 2.	Explore the data in Excel
 3.	Load the data into Power BI Environment 
@@ -180,8 +151,9 @@ To understand what it should contain, we need to figure out what questions we ne
 8.	Publish the data to GitHub Pages
 
 #  Data exploration notes
+
 This is the stage where you have a scan of what’s in the data, errors, inconsistencies, bugs, weird and corrupted characters etc
-•	What are your initial observations with this dataset? What’s caught your attention so far?
+What are your initial observations with this dataset? What’s caught your attention so far?
 1.	There are at least 3000 columns that contain the data we need for this analysis, which signals we have everything we need from the file without needing to contact the client for any more data.
 2.	We need to create the age range
 3.	The first column contains the channel ID with what appears to be channel IDS, which are separated by a @ symbol - we need to extract the channel names from this.
@@ -189,13 +161,13 @@ This is the stage where you have a scan of what’s in the data, errors, inconsi
 5.	We have more data than we need, so some of these columns would need to be removed
 
 # Data cleaning
-•	What do we expect the clean data to look like?
+- What do we expect the clean data to look like?
 The aim is to refine our dataset to ensure it is structured and ready for analysis.
 The cleaned data should meet the following criteria and constraints:
-•	Only relevant columns should be retained.
-•	All data types should be appropriate for the contents of each column.
-•	No column should contain null values, indicating complete data for all records.
-•	What steps are needed to clean and shape the data into the desired format?
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain null values, indicating complete data for all records.
+- What steps are needed to clean and shape the data into the desired format?
 
 # Data Transformation
 
@@ -204,26 +176,28 @@ The cleaned data should meet the following criteria and constraints:
 3.	Rename columns using aliases
 
 Below is a table outlining the constraints on our cleaned dataset:
+
 | Property | Description |
 | --- | --- |
 | Number of Rows | 3000 |
-| Number of Dataset | 2 |
+| Number of Columns | 2 |
+
 
 ## Transform the data
 Creating the age range 
 
 # Visualization
 Results
-## What does the dashboard look like for Sways Analysis?
+### What does the dashboard look like for Sways Analysis?
 
 ![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
 
 
-# What does the dashboard look like for Sways Competitors Analysis?
+### What does the dashboard look like for Sways Competitors Analysis?
 ![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
 
 
-# What does the dashboard look like the listeners by platform?
+### What does the dashboard look like the listeners by platform?
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.png)
 
@@ -315,34 +289,37 @@ RETURN Total Listeners
 
 # Analysis
 ## Findings
-•	What did we find?
-# Project Insight
-•	From Sway's 3,000 listeners which comprises, 50.8% female, 46.7% male and 2.5% Others.
-•	A significant proportion of her listeners fall within the age bracket of 39 to 45.
-•	The predominant musical preference among her audience is pop. Furthermore, the majority of the listeners belong to the low-income demographic.
-•	Geographically, the highest concentration of her audience is situated in Melbourne.
-•	Among the ten competitors, Sway's album sales and streaming numbers ranked the lowest. However, Sway boasts of a good presence on social media, with 3k followers/listeners, making her the fourth highest among her competitors. Additionally, she has a significant following on Instagram.
-•	Sway contends with ten major rivals. Chris Sounds leads in album sales with 4,500 units sold. Furthermore, Melodic Maven leads in followers count while Electro vibe leads in streaming numbers in Lagos.
-•	In Lagos, Sway's audience tends to lean towards Hip-Hop, while Pop takes the lead in other the locations.
-•	London's audience exhibits a higher prevalence in the age range 18-25, whereas Tokyo sees a larger demographic between the age range of 32-38
-•	Sway contends with ten major rivals. Chris Sounds leads in album sales with 4,500 units sold. Furthermore, Melodic Maven leads in followers count while Electro vibe leads in streaming numbers.
-•	The majority of Sway listeners were acquired through advertising effort which includes online and streaming ads
-•	The majority of Sway's listeners were acquired through advertising efforts.
-•	Spotify was the streaming platformed most used by Sway's listeners.
+ What did we find?
+##  Project Insight
+- From Sway's 3,000 listeners which comprises, 50.8% female, 46.7% male and 2.5% Others.
+- A significant proportion of her listeners fall within the age bracket of 39 to 45.
+- The predominant musical preference among her audience is pop. Furthermore, the majority of the listeners belong to the low-income demographic.
+- Geographically, the highest concentration of her audience is situated in Melbourne.
+- Among the ten competitors, Sway's album sales and streaming numbers ranked the lowest. However, Sway boasts of a good presence on social media, with 3k followers/listeners, making her the fourth highest among her competitors. Additionally, she has a significant following on Instagram.
+- Sway contends with ten major rivals. Chris Sounds leads in album sales with 4,500 units sold. Furthermore, Melodic Maven leads in followers count while Electro vibe leads in streaming numbers in Lagos.
+- In Lagos, Sway's audience tends to lean towards Hip-Hop, while Pop takes the lead in other the locations.
+- London's audience exhibits a higher prevalence in the age range 18-25, whereas Tokyo sees a larger demographic between the age range of 32-38
+- Sway contends with ten major rivals. Chris Sounds leads in album sales with 4,500 units sold. Furthermore, Melodic Maven leads in followers count while Electro vibe leads in streaming numbers.
+- The majority of Sway listeners were acquired through advertising effort which includes online and streaming ads
+- The majority of Sway's listeners were acquired through advertising efforts.
+- Spotify was the streaming platformed most used by Sway's listeners.
 
 
 # Recommendations
 In order to enhance her marketing optimization efforts, Sway should capitalize on additional social media platforms to expand her fanbase by increasing her social presence and interaction on platforms where she's lagging behind such as Twitter and Tik-Tok. This approach will not only bolster her social media engagement but also contribute to increased streaming figures and album sales.
+
 # Listeners within the age of 39-45 engaged the most with Sway's music. In order to expand her audience to other age group, Sway can:
 1.	Experiment with different musical styles or genres that appeal to a broader demographic. This may involve collaborating with artists from other genres or incorporating elements from various musical traditions.
 2.	Create content, such as music videos or lyric videos, that resonates with different age groups. For example, she could create videos with themes or storylines that appeal to a younger audience or produce content that connects with older listeners.
 3.	Collaborate with artists who have fans in other age ranges such as Rhythmic Rival and Melodic Maven can help Sway tap into new audiences. These collaborations can introduce her music to a wider demographic.
+   
 # Sways has more low income level earners as listeners, to attract a more diverse audience that includes medium and high-income individuals:
 4.	Consider advertising in upscale magazines, lifestyle blogs, or social media platforms popular among medium and high-income demographics.
 5.	Create ad campaigns tailored to the interests and preferences of medium and high-income individuals.
 6.	Collaborate with established artists who have a following among medium and high-income audiences. These collaborations can introduce her to new fans.
 7.	Partner with social media influencers or bloggers who have a significant following among the desired demographic. Their endorsement can help her gain credibility and reach.
 8.	Partner with charitable organizations or causes that resonate with medium and high-income individuals. This can help her connect with those who appreciate socially conscious artists.
+   
 # Sway's listeners are more in Melbourne, to expand her listener base in locations beyond Melbourne, the following strategies can be employed:
 9.	Create marketing campaigns specifically tailored to each of the other locations where she has listeners. This can include localized social media advertising, event promotions, and targeted outreach.
 10.	Collaborate with artists and influencers from those regions to tap into their local fan base. Joint projects or performances can help her gain visibility in new areas. Reach out to local radio stations, and online publications in those areas. Getting featured in local media and magazine shoot, for example 'Vogue Asia' , or Glamour Africa help introduce her music to a broader local audience.
