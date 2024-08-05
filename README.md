@@ -205,18 +205,109 @@ Below is a table outlining the constraints on our cleaned dataset:
 | Number of Rows | 3000 |
 | Number of Dataset | 2 |
 
-Transform the data
+## Transform the data
 Creating the age range 
-Visualization
+
+# Visualization
 Results
-•	What does the dashboard look like for Sways Analysis?
+## What does the dashboard look like for Sways Analysis?
 
 ![GIF of Power BI Dashboard](assets/images/Sway's_Analysis.png)
 
+
+# What does the dashboard look like for Sways Competitors Analysis?
 ![GIF of Power BI Dashboard](assets/images/Competitors_Analysis.png)
+
+
+# What does the dashboard look like the listeners by platform?
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.png)
 
+
+
+## DAX Measures
+
+### 1. %females 
+
+```sql
+%females = DIVIDE([Female Listeners], [Total Listeners], 0)
+RETURN %females
+
+```
+### 2. %males 
+```sql
+%males = DIVIDE([Male Listeners], [Total Listeners], 0)
+RETURN %males
+
+```
+### 3. %others
+```sql
+%others = DIVIDE([Other Listeners], [Total Listeners], 0)
+RETURN %others
+
+```
+### 4. Album Sales
+
+```sql
+Album Sales = SUM(listeners_dataset[Album_Sales])
+RETURN %others
+
+```
+### 5. Comp Album Sales
+```sql
+Comp Album Sales = SUM(competitors_analysis_dataset[Album_Sales])
+RETURN Comp Album Sales
+
+```
+### 6. Comp Followers/Listeners
+```sql
+Comp Followers/Listeners = SUM(competitors_analysis_dataset[No_of_Followers])
+RETURN Comp Followers/Listeners
+
+```
+### 6. Comp Streaming No
+```sql
+Comp Streaming No = SUM(competitors_analysis_dataset[Streaming_Numbers])
+RETURN Comp Streaming No
+```
+### 7. Female Listeners
+```sql
+Female Listeners = CALCULATE(COUNTROWS(listeners_dataset), listeners_dataset[Gender] = "Female")
+RETURN Female Listeners
+
+```
+### 8. Male Listeners
+```sql
+Male Listeners = CALCULATE(COUNTROWS(listeners_dataset), listeners_dataset[Gender] = "Male")
+RETURN Male Listeners
+
+```
+### 9. Other Listeners
+```sql
+Other Listeners = IF(
+    ISBLANK(CALCULATE(COUNTROWS(listeners_dataset), listeners_dataset[Gender] = "Others")),
+    0,
+    CALCULATE(COUNTROWS(listeners_dataset), listeners_dataset[Gender] = "Others")
+)
+RETURN Other Listeners
+
+```
+### 10. Streaming Numbers
+```sql
+Streaming Numbers = SUM(listeners_dataset[Streaming_Numbers])
+RETURN Streaming Numbers
+
+```
+### 11. Total Competitors
+```sql
+Total Competitors = COUNTROWS(competitors_analysis_dataset)
+RETURN Total Competitors
+```
+### 12. Total Listeners
+```sql
+Total Listeners = COUNTROWS(listeners_dataset)
+RETURN Total Listeners
+```
 
 # Analysis
 ## Findings
