@@ -164,7 +164,7 @@ The cleaned data should meet the following criteria and constraints:
 
 Data Transformation 
 1. Create a custom column for Age range, this can be done using a formular or an expression.
-2. Max - Min ÷ number of ranges (65 - 18  / ÷7) = 6.71 approximately  7
+2. Max - Min ÷ number of ranges (65 - 18  / ÷ 7) = 6.71 approximately  7
 3. Then click on Transform data, Power Query , click on add column, custom column 
 
 ### Age Range
@@ -210,6 +210,8 @@ Results
 ### What does the dashboard look like for the listeners by platform?
 
 ![GIF of Power BI Dashboard](assets/images/tooltip.gif)
+
+
 The tooltip visualisation is create as a way of providing addition information about a categories.
 
 This shows the dashboard looks so far. 
