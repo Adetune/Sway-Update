@@ -18,7 +18,6 @@ It helps extract data from sources, enable data exploration, perform data modeli
 - [Stages](#stages)
 - [Design](#design)
 - [Project Scope](#project-scope)
-  - [Tools](#tools)
 - [Development](#development)
   - [Pseudocode](#pseudocode)
   - [Data Exploration](#data-exploration)
