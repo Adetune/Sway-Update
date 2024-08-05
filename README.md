@@ -3,7 +3,7 @@
 
 
 
-![excel-to-powerbi-animated-diagram](assets/images/PBI_image.png)
+![excel-to-powerbi-animated-diagram](assets/images/powerBI_project.png)
 
 
 # This is a Power BI project
