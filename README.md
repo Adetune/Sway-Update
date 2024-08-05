@@ -1,5 +1,4 @@
-# Analysing and Optimizing Advertisement Strategies
-## for Sway's 2nd Album Release
+# Analysing and Optimizing Advertisement Strategies for Sway's 2nd Album Release
 
 
 
