@@ -158,11 +158,6 @@ The cleaned data should meet the following criteria and constraints:
 
 # Data Transformation
 
-1.	Remove unnecessary columns by only selecting the ones you need
-2.	Extract Youtube channel names from the first column
-3.	Rename columns using aliases
-
-Data Transformation 
 1. Create a custom column for Age range, this can be done using a formular or an expression.
 2. Max - Min ÷ number of ranges (65 - 18  / ÷ 7) = 6.71 approximately  7
 3. Then click on Transform data, Power Query , click on add column, custom column 
@@ -190,8 +185,6 @@ Below is a table outlining the constraints on our cleaned dataset:
 | Number of Columns | 2 |
 
 
-## Transform the data
-Creating the age range 
 
 # Visualization
 
@@ -214,7 +207,6 @@ Results
 
 The tooltip visualisation is create as a way of providing addition information about a categories.
 
-This shows the dashboard looks so far. 
 
 
 ## DAX Measures
