@@ -24,7 +24,6 @@ It helps extract data from sources, enable data exploration, perform data modeli
   - [Data Cleaning](#data-cleaning)
   - [Data Transformation](#data-transformation)
 - [Visualization](#visualization)
-  - [Results](#results)
   - [DAX Measures](#dax-measures)
 - [Analysis](#analysis)
   - [Project Insight](#project-insight)
