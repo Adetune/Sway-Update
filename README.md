@@ -41,8 +41,8 @@ To propel Sway's second album to international stardom by strategically optimisi
 The ideal solution would be to create a dashboard that provides insights to propel Sway's second album to international stardom and transform him from a regional sensation into a globally recognised that includes:
 
 - Sway's fan base beyond specific regions 
-- navigating the highly competitive music industry, and
-- evolving consumer preferences in music consumption 
+- Navigating the highly competitive music industry, and
+- Evolving consumer preferences in music consumption 
 
 This will help the marketing and advertisement department of SunMusic make informed decisions and to optimise the insight during campaigns.
 
@@ -53,7 +53,7 @@ This dashboard should allow me to identify the following:
 
 - Data-Driven Decision Making
 - Audience Segmentation
-- Compare Effective
+- Compaign Effective
 - Platform Optimization
 
 With this information, I can make more informed decisions about how to ensure the album's global success and also solidify Sway's position as a rising star in the international music scene.
@@ -64,7 +64,7 @@ With this information, I can make more informed decisions about how to ensure th
 We need data on the SunMusic record label Entertainment that includes:
 - Information on 3000 listeners
 - Listeners Dataset 
-- Competitors Analysis Dataset
+- Competitors Dataset
 
 # Listeners Dataset:
 1.	Listeners_ID: A unique identifier for each listener.
@@ -117,7 +117,7 @@ To understand what it should contain, we need to figure out what questions we ne
 | --- | --- |
 | Excel | Exploring the data |
 | Power BI | Cleaning, and Transformation |
-| Power BI | Exploring and Analysing the data (EDA)|
+| Power BI | Analysing the data (EDA)|
 | Power BI | Visualizing the data via interactive dashboards |
 | GitHub | Hosting the project documentation and version control |
 
