@@ -51,9 +51,9 @@ This will help the marketing and advertisement department of SunMusic make infor
 As the SunMusic record label Entertainment Manager, I want to use a dashboard that analyses SunMusic data.
 This dashboard should allow me to identify the following:
 
-- Data-Driven Decision Making
-- Audience Segmentation
-- Compaign Effective
+- Segmentation
+- Target our Audience 
+- Campaign Effectiveness
 - Platform Optimization
 
 With this information, I can make more informed decisions about how to ensure the album's global success and also solidify Sway's position as a rising star in the international music scene.
